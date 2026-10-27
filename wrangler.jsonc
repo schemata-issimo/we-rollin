@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dice-roller",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "routes": [{ "pattern": "roller.issimo.com", "custom_domain": true }]
+  // Secret: DISCORD_PUBLIC_KEY (npx wrangler secret put DISCORD_PUBLIC_KEY)
+}
